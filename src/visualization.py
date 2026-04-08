@@ -34,4 +34,4 @@ def plot_habit_heatmap(dates, habits):
     plt.tight_layout()
     plt.show()
 
-    plt.savefig("outputs/Habit_heatmap.png", dpi=300)
+    plt.savefig("outputs/habit_heatmap.png", dpi=300)
