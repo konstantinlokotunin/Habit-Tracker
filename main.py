@@ -1,6 +1,6 @@
 from src.data_loader import load_data
 from src.analysis import calculate_completion_rate, calculate_streak
-from src.visualization import plot_habits
+from src.visualization import plot_habit_heatmap
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
         print(f"  Completion Rate: {rate:.2f}%")
         print(f"  Max Streak: {streak}\n")
 
-    plot_habits(dates, habits)
+    plot_habit_heatmap(dates, habits)
 
 
 if __name__ == "__main__":
