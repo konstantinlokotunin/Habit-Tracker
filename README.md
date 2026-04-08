@@ -1,4 +1,4 @@
-# 📊 Habit Tracker Analyzer (Python)
+# 📊 Habit Tracker (Python)
 
 A Python-based habit tracking and analysis tool that transforms daily behavioral data into actionable insights.
 The project combines data processing, statistical analysis, and visualization to evaluate consistency, streaks, and overall habit performance.
