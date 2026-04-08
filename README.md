@@ -1,32 +1,93 @@
-# 📊 Habit Tracker (Python)
+# 📊 Habit Tracker Analyzer (Python)
 
-## 🚀 Overview
+A Python-based habit tracking and analysis tool that transforms daily behavioral data into actionable insights.
+The project combines data processing, statistical analysis, and visualization to evaluate consistency, streaks, and overall habit performance.
 
-A Python-based habit tracking tool that visualizes weekly progress using a heatmap and calculates key performance metrics such as completion rates and streaks.
+This project demonstrates an end-to-end data workflow:
+
+* CSV data ingestion
+* analytical computation (NumPy)
+* visualization (Matplotlib)
+* reporting and export
+
+---
+
+## ✨ Features
+
+* 📥 Load habit data from CSV files
+* 📊 Compute key metrics:
+
+  * Habit completion rates
+  * Current streaks
+  * Longest streaks
+* 🔥 GitHub-style habit heatmap visualization
+* 💾 Generate structured reports in CSV format
+* 🧠 Clean, modular project structure (data / src / outputs)
+
+---
+
+## 🧱 Project Structure
+
+```
+habit-tracker-analyzer/
+│
+├── data/              # Raw input data
+├── src/               # Core logic
+│   ├── data_loader.py
+│   ├── analysis.py
+│   ├── visualization.py
+│
+├── outputs/           # Generated files (plots, exports)
+├── main.py            # Entry point
+├── README.md
+```
+
+---
 
 ## 📸 Example Output
 
-![Habit Heatmap](outputs/habit_heatmap.png)
+![Habit Heatmap](outputs/Habit_Heatmap.png)
 
-## 📈 Weekly Statistics
+---
 
-| Habit       | Completion | Current Streak | Longest Streak |
-| ----------- | ---------- | -------------- | -------------- |
-| Gym Workout | 71%        | 2 days         | 2 days         |
-| Reading     | 71%        | 2 days         | 2 days         |
-| Meditation  | 71%        | 1 days         | 4 days         |
-
-**Overall Completion Rate:** 71%
-
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 * Python 3.14
 * NumPy
 * Matplotlib
 
+---
+
 ## ▶️ How to Run
 
 ```bash
-pip install numpy matplotlib
 python main.py
 ```
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+
+* Processing and analyzing behavioral data in Python
+* Designing modular and scalable project structures
+* Applying NumPy for efficient numerical computation
+* Building insightful visualizations with Matplotlib
+* Creating reproducible personal analytics workflows
+
+---
+
+## 🔮 Future Improvements
+
+* Interactive visualizations (mplcursors / Plotly)
+* CLI interface (argparse / Typer)
+* Database integration (SQLite / PostgreSQL)
+* Streamlit dashboard
+* Automated habit tracking pipeline
+
+---
+
+## 📜 License
+
+CC0-1.0
